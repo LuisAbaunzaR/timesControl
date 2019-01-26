@@ -31,6 +31,6 @@ mongoose.Types.ObjectId.prototype.valueOf = function () {
     return this.toString();
 };
 
-module.exports = mongoose.model("clients", ClientSchema);
+module.exports = mongoose.model("matters", MatterSchema);
 
 
